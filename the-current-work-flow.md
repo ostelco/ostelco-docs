@@ -28,7 +28,4 @@
 * GCB then deploys the docker images on the production cluster.
 
 ## Deploying OCS Gateway:
-* When the developer is happy with the code, (all unit tests and acceptance tests have passed), he/she makes a zip file out of the binaries, including docker-compose.yml and docker-compose.prod.yml files.
-* The docker-compose.prod.yml is renamed to docker-compose.override.yml before the zip file is created.
-* The zip file is copied to a server somewhere in D-building using SCP.
-* The zip file is uncompressed on the server, and is brought up using docker-compose up.
+* Run script on ocsgw/infra/script/deploy:ocsgw.sh
