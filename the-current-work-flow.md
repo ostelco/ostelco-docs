@@ -28,4 +28,4 @@
 * GCB then deploys the docker images on the production cluster.
 
 ## Deploying OCS Gateway:
-* Run script on ocsgw/infra/script/deploy:ocsgw.sh
+* Run script ocsgw/infra/script/deploy_ocsgw.sh
